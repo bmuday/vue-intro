@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <div id="app">
+    <h1>VueMart</h1>
+    
+    <h2>Panier</h2>
+    <ul>
+      <li v-if="item.cost > 0" v-for="item in shoppingCart"><a v-bind:href="item.url">
+          {{item.label}}: {{item.cost}}€</li></a>
+      </ul>
+    <p>Total: {{ totalAmount }}€</li>
+
+    <h2>Horaires d'ouverture</h2>
+    <p>Dimanche: 10h - 16h</p>
+    <p>Du lundi au vendredi: 09h - 17h</p>
+    <p>Samesi: 09h30 - 18h00</p>
+  </div>
+
+  <script src="https://unpkg.com/vue@2"></script>
+  <script>
+    const app = new Vue({
+      el: '#app',
+      data: {
+        shoppingCart: [
+            {label: "Apples", cost: 0, url: "/apples.html"}, {label: "Bananas", cost: 4, url: "/bananas.html"}, {label: "Coconuts", cost: 10, url: "/coconuts.html"}
+        ]
+      },
+      computed: {
+        totalAmount() {
+            let total = 0
+            this.shoppingCart.forEach(item => {
+                total+=item.cost
+            });
+          return total
+        }
+      }
+    })
+  </script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ma couleur préférée</title>
+  </head>
+  <body>
+    <div id="app">
+      <h1>Ma couleur préférée</h1>
+      <div>
+        <h2>Montrer ma couleur préférée ({{favoriteColor}})</h2>
+        <button @click="showColor">Cliquer ici !</button>
+      </div>
+
+      <div>
+        <h2>Changer ma couleur préférée</h2>
+        <label for="change-color">Changer la couleur :</label>
+        <input id="change-color" type="text" v-model="favoriteColor" />
+      </div>
+    </div>
+    <script src="https://unpkg.com/vue@2"></script>
+    <script>
+      const app = new Vue({
+        el: "#app",
+        data: { favoriteColor: "blue" },
+        methods: {
+          showColor() {
+            alert(this.favoriteColor);
+          },
+          changeColor() {
+            this.favoriteColor = document.querySelector("#change-color").value;
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
