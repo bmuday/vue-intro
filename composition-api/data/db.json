@@ -1,0 +1,16 @@
+{
+  "posts": [
+    {
+      "title": "welcome to the blog",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non ultrices turpis. In hac habitasse platea dictumst. Quisque lobortis urna a suscipit aliquet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce faucibus bibendum lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Praesent posuere congue elit, egestas sodales odio porta et. Quisque ex tortor, tincidunt ut dignissim et, vulputate sed ex. Duis non tortor sit amet justo facilisis pellentesque. Integer dapibus metus a enim malesuada, eu blandit purus mollis. Pellentesque ante nunc, malesuada bibendum sagittis vel, tempor sed sem. Aliquam dapibus justo egestas ligula efficitur tincidunt. Sed non nibh nisl. Fusce ipsum velit, tincidunt tincidunt nunc ac, gravida malesuada metus. Phasellus ut neque lorem. Curabitur rutrum nisi urna, ut ullamcorper mi efficitur in. Cras turpis purus, ullamcorper vitae suscipit sit amet, pretium et nisl. Suspendisse semper mi in neque condimentum, at tincidunt ante ultricies.",
+      "id": 1,
+      "tags": ["webdev", "coding", "news"]
+    },
+    {
+      "title": "top 5 CSS tips",
+      "body": "Morbi finibus at massa et consequat. Nam ac odio porttitor, porta nulla nec, semper enim. Mauris sit amet massa sodales, rutrum tortor non, mollis sem. Maecenas et erat id sem rhoncus fringilla nec sed odio. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum tempor purus et metus tristique rutrum. Curabitur et pulvinar justo. Etiam tristique risus accumsan, gravida ligula et, congue massa. Morbi non eros odio. Proin dui est, tempor et orci nec, eleifend tempor urna. Sed in risus felis. Phasellus sit amet pellentesque arcu. Integer ac varius justo, non gravida arcu. Etiam vel elit ut purus ornare scelerisque. Integer ut enim risus. Phasellus vel molestie tellus. Sed sed nibh hendrerit, vestibulum ligula efficitur, hendrerit purus. Sed a elementum orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque pharetra est eu purus congue varius.",
+      "id": 2,
+      "tags": ["css", "webdev", "coding"]
+    }
+  ]
+}
